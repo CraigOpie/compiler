@@ -1,0 +1,18 @@
+int a=0;
+int n=10;
+int tmp=0;
+
+
+tmp = f();
+print a;
+
+int f() 
+{   
+    if (n == 0)
+       return 0;
+    endif
+    a = a + n;
+    n = n - 1;
+    tmp = f();
+    return 0;
+}
